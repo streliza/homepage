@@ -1,5 +1,7 @@
 /* Global styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,15 +9,16 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Caveat', Arial, Helvetica, sans-serif;
+  font-size: 24px;
   line-height: 1.5;
 
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #005a2d99;
+  --text-decoration-color: #005a2d;
 }
 
 .container {
@@ -92,6 +95,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 20%;
 }
 
 .contact-info__block--center {
@@ -127,8 +131,8 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -142,7 +146,7 @@ body {
 }
 
 .intro__icon-wrapper {
-  margin-right: 30px;
+  margin-right: 10px;
   width: 30px;
   display: flex;
   justify-content: center;
